@@ -8,4 +8,6 @@ include_directories(
 )
 
 add_executable(box_filter src/box_filter.cpp)
+add_executable(intensity src/intensity.cpp)
 target_link_libraries(box_filter ${OpenCV_LIBS})
+target_link_libraries(intensity ${OpenCV_LIBS})
